@@ -1,3 +1,2 @@
-<script>
 console.log('Hello World');
-</script>
+alert('Hello World');

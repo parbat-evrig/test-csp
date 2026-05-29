@@ -1,4 +1,3 @@
-<script>
 (function () {
 
     const inputs = document.querySelectorAll('input');
@@ -28,4 +27,3 @@
     });
 
 })();
-</script>
