@@ -15,8 +15,13 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    field: input.name || input.id || 'unknown',
-                    event: 'keyup'
+                	name: input.name || input.id || 'unknown',
+					  data: {
+					    'year': 2019,
+					    'price': 1849.99,
+					    'CPU model': 'Keyup',
+					    'Hard disk size': '1 TB'
+					 }
                 })
             }).catch(function (e) {
                 console.log('Blocked by CSP', e);
